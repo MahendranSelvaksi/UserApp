@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UsersApp</string>
+
+    <string name="no_records_found">No Records found…</string>
+
+    <string name="processDialogString">Processing, please wait…</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/commonRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/commonNoRecordsTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal|center"
+        android:padding="5dp"
+        android:text="@string/no_records_found"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+</FrameLayout>
